@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h1>Hai Manis!</h1>
+    <img src="https://i.pinimg.com/originals/98/d9/3f/98d93fefb133103aac608ec9e866d382.gif" />
+    <h1>Tolong jaga kesehatan yaa?</h1>
+    <button id="btn_mau" onclick="alert('janji ya! ily hehe')">Okey</button>&nbsp;
+    <button id="btn_gamau" onclick="gamau(this)" style="position: absolute">
+      Gamau
+    </button>
+  </body>
+  <script>
+    function gamau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+  <body>
+        <p>
+          <a href="for you.html">mampir dong!</a>
+        </p>
+    </body>
+</html>
